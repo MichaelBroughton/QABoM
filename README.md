@@ -43,7 +43,7 @@ print(wavefunction)
  
  ```python
 qvm = api.SyncConnection()
-r = qRBM(qvm, num_visible=4, num_hidden=1, n_quantum_measurements=None, verbose=False)
+r = qRBM(qvm, num_visible=4, num_hidden=1, n_quantum_measurements=None, verbose=True)
 ```
 
 Then we will create a very simple artificially high dimensional dataset
