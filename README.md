@@ -52,7 +52,7 @@ Then we will create a very simple artificially high dimensional dataset
 simple_data = [[1,1,-1,-1], [1,1,-1,-1], [-1,-1,1,1], [-1,-1,1,1]]
 ```
 
-Then We can train our RBM, specifying the number of epochs, learning rate as well as what ratio of classical to quantum statistics we want to use in our update rule. The following uses 70% quantum and 30% classical:
+Then We can train our RBM, specifying the number of epochs, learning rate as well as what ratio of classical to quantum statistics we want to use in our update rule. The following uses 70% quantum and 30% classical (CD-1):
 ```python
 r.train(simple_data, n_epochs=100, quantum_percentage=0.7, classical_percentage=0.3)
 ```
