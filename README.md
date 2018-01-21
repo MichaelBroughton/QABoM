@@ -1,5 +1,5 @@
 # QABoM
-Simple demo of some logic used in https://arxiv.org/abs/1712.05304 This Code is intended to showcase the baseline structure for using a quantum computer to help accelerate the training of an RBM. 
+Simple demo of some logic used in https://arxiv.org/abs/1712.05304 This Code is intended to showcase the baseline structure for using a quantum computer to do the training of an RBM. 
 
 # Abstract
 The question has remained open if near-term gate model quantum computers will offer a quantum
