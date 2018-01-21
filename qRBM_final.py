@@ -314,7 +314,7 @@ class qRBM:
 """ Simple use case example """
 
 # Setup a Rigetti qvm connection
-qvm = api.SyncConnection('http://127.0.0.1:5000')
+qvm = api.SyncConnection()
 
 
 #Creat an instance of a qRBM
