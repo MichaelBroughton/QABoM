@@ -21,7 +21,7 @@ Finally you will also need to head over the Rigetti website: https://www.rigetti
 
 # Getting Started
 
-Once you have signed up for Forest and installed everything you should be able to run a simple test program such as:
+Once you have signed up for Forest, registered your Forest API key with you config, and installed everything you should be able to run a simple test program such as:
 
 ```python
 
