@@ -47,7 +47,7 @@ class qRBM:
 
 
 		#tweak at your leisure.
-		self.n_qaoa_steps = 2
+		self.n_qaoa_steps = 1
 
 		self.beta_temp = 2.0
 
