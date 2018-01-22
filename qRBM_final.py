@@ -129,6 +129,7 @@ class qRBM:
 						 store_basis=True,
 						 minimizer=fmin_bfgs,
 						 minimizer_kwargs={'maxiter':50},
+				 		 vqe_args={'samples': self.n_quantum_measurements},
 						 rand_seed=1234)
 
 
