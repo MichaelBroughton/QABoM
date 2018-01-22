@@ -39,7 +39,7 @@ print(wavefunction)
  
  Now to start with your RBM:
  Begin wih creating a qvm connection.
- Then specify the number of visible and hidden units you would like to have. NOTE: (num_visible + num_hidden) * 2 <= number of simulable qubits = 25 (So no you definitly can't run this on MNIST). As well you can choose how many measurements of your circuit to do (a value of None calculates things partially analytically so the simulations will be much faster!):
+ Then specify the number of visible and hidden units you would like to have. NOTE: (num_visible + num_hidden) * 2 <= number of simulable qubits = 19 (So no you definitly can't run this on MNIST). As well you can choose how many measurements of your circuit to do (a value of None calculates things partially analytically so the simulations will be much faster!):
  
  ```python
 qvm = api.SyncConnection()
