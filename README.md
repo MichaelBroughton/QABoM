@@ -66,4 +66,4 @@ print r.transform(simple_data)
  [0.00046839]]
 
 ```
-
+Don't hesitate to share if you find any improvements/bugs in the code to make it more user friednly :)
