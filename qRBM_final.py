@@ -272,14 +272,6 @@ class qRBM:
 			self.BIAS = copy.deepcopy(new_bias)
 
 
-
-			# fix from -1 to 0 for error calculation in probability terms.
-			if self.verbose:
-				error_measure_DATA = copy.deepcopy(DATA)
-				error_measure_DATA[error_measure_DATA < 0] = 0
-				print 'Error', np.sum((error_measure_DATA - neg_visible_probs) ** 2)
-
-
 			with open("RBM_info.txt", "w") as myfile:
 				myfile.write(json.dumps(list(self.WEIGHTS.tolist()))+'\n')
 				myfile.write(json.dumps(list(self.BIAS.tolist()))+'\n')
