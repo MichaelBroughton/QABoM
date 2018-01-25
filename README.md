@@ -1,5 +1,5 @@
 # QABoM
-Simple demo of some logic used in https://arxiv.org/abs/1712.05304 This Code is intended to showcase the baseline structure for using a quantum computer to do the training of an RBM. 
+Simple demo of some logic used in https://arxiv.org/abs/1712.05304 This Code is intended to showcase the baseline structure for using a quantum computer to do the training of a Restricted Boltzmann Machine. (Note: Training more general connectivity Boltzmann machines is possible by extending this code.)
 
 # Abstract
 The question has remained open if near-term gate model quantum computers will offer a quantum
@@ -66,4 +66,7 @@ print r.transform(simple_data)
  [0.00046839]]
 
 ```
-Don't hesitate to share if you find any improvements/bugs in the code to make it more user friednly :)
+# Notes
+As is mentioned in the ealier it is also possible to use this methodology and extend this code to train more general connectivity boltzmann machines rather than just having to stick with the RBM. This can be done by using an entirely quantum update rule featuring the data clamping QAOA we propose in the paper, along with whatever connectivity you are after that you will define in your driver/mixer + cost hamiltonians.
+
+Also don't hesitate to share if you find any improvements/bugs in the code to make it more user friednly :)
