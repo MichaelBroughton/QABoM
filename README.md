@@ -1,5 +1,5 @@
 # QABoM
-Simple demo of some logic used in https://arxiv.org/abs/1712.05304 This Code is intended to showcase the baseline structure for using a quantum computer to do the training of a Restricted Boltzmann Machine. (Note: Training more general connectivity Boltzmann machines is possible by extending this code.)
+Simple demo of some logic used in https://arxiv.org/abs/1712.05304 This Code is intended to showcase some baseline structure for using a quantum computer to do the training of a Restricted Boltzmann Machine. (Note: Training more general connectivity Boltzmann machines is possible by extending this code.)
 
 # Abstract
 The question has remained open if near-term gate model quantum computers will offer a quantum
