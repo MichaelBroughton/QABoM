@@ -69,4 +69,4 @@ print r.transform(simple_data)
 # Notes
 As is mentioned in the ealier it is also possible to use this methodology and extend this code to train more general connectivity boltzmann machines rather than just having to stick with the RBM. This can be done by using an entirely quantum update rule featuring the data clamping QAOA we propose in the paper, along with whatever connectivity you are after that you will define in your driver/mixer + cost hamiltonians.
 
-Also don't hesitate to share if you find any improvements/bugs in the code to make it more user friednly :)
+Also don't hesitate to share if you find any improvements/bugs in the code (This version was mostly rewritten from the original to be as clear as possible) to make it more user friendly :)
