@@ -217,6 +217,8 @@ class qRBM:
 															self.qvm)
 
 					neg_phase_quantum[a][b] = model_expectation
+			
+			neg_phase_quantum *= (1. / float(len(DATA)))
 
 
 			# UNCOMMENT THIS FOR NEGATIVE PHASE COMPONENT OF BIAS
